@@ -81,13 +81,13 @@ The loop stops inside the deadband, or on crossing the target it keeps the posit
 Upload [`release/rev1/gerber-rev1.zip`](release/rev1) and send:
 
 ```text
-5PCS, FR4, 2 LAYERS, 1.6MM, 1OZ, Purple Soldermask, White Legend, ENIG, TENTED VIAS, order number will be added
+5PCS, FR4, 2 LAYERS, 1.6MM, 1OZ, Purple Soldermask, White Legend, Lead-free HASL, TENTED VIAS, order number will be added
 ```
 
 | Item | Reason |
 |---|---|
 | 1.6 mm, 1 oz | Standard two-layer stack-up; the stack-up is not stored in the Gerbers |
-| ENIG | Flat pads for 0805 and SOIC parts on both sides |
+| Lead-free HASL | 0805, SOIC and SOT-23 parts do not need flat pads |
 | Smallest features | 0.25 mm tracks, 0.15 mm clearance, 0.3 mm via drill, 0.6 mm via pad |
 | Stencil | Needed for each side if the board is reflowed at home |
 
